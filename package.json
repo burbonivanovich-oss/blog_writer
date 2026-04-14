@@ -9,7 +9,5 @@
   "keywords": ["blog", "writing", "claude", "content-writer"],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "anthropic": "^0.35.0"
-  }
+  "dependencies": {}
 }
