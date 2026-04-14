@@ -1,0 +1,36 @@
+{
+  "name": "Default Writing Profile",
+  "description": "Default profile for content generation",
+  "tone": "professional-friendly",
+  "audience": "general",
+  "style": {
+    "formality": "semi-formal",
+    "vocabulary": "accessible",
+    "sentenceLength": "medium",
+    "paragraphLength": "medium",
+    "usePersonalPronouns": true,
+    "useConversationalLanguage": true,
+    "useContractions": true,
+    "useActiveVoice": true
+  },
+  "preferences": {
+    "headingStyle": "h2-for-sections",
+    "bulletPointStyle": "em-dashes",
+    "includeIntroduction": true,
+    "includeConclusion": true,
+    "includeCallToAction": false,
+    "maxLength": "medium"
+  },
+  "seoSettings": {
+    "optimizeKeywords": true,
+    "targetKeywordDensity": "1-2%",
+    "includeMetaDescription": false,
+    "includeTitleSuggestion": false
+  },
+  "humanizationRules": {
+    "removeAIPhrases": true,
+    "avoidRepetition": true,
+    "addPersonalExamples": true,
+    "includeOpinions": false
+  }
+}

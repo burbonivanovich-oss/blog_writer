@@ -1,0 +1,26 @@
+{
+  "name": "blog-writer",
+  "description": "Blog writing project with Claude Content Writer agent",
+  "skills": [
+    {
+      "id": "content-writer",
+      "name": "Claude Content Writer",
+      "source": "sociilabs/claude-content-writer",
+      "enabled": true
+    }
+  ],
+  "contentTypes": [
+    "blog-articles",
+    "linkedin-posts",
+    "email-newsletters",
+    "landing-pages",
+    "case-studies"
+  ],
+  "settings": {
+    "outputDirectory": "content",
+    "profilesDirectory": "profiles",
+    "enforceHumanTone": true,
+    "detectAIPatterns": true,
+    "optimizeForSEO": true
+  }
+}
